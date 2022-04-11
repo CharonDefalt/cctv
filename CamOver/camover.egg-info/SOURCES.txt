@@ -1,0 +1,13 @@
+README.md
+setup.py
+camover/__init__.py
+camover/__main__.py
+camover/badges.py
+camover/cli.py
+camover.egg-info/PKG-INFO
+camover.egg-info/SOURCES.txt
+camover.egg-info/dependency_links.txt
+camover.egg-info/entry_points.txt
+camover.egg-info/not-zip-safe
+camover.egg-info/requires.txt
+camover.egg-info/top_level.txt

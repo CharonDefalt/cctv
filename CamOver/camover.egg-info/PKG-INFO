@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: camover
+Version: 1.0
+Summary: CamOver is a camera exploitation tool that allows to disclosure network camera admin password.
+Home-page: https://github.com/CharonDefalt/cctv/
+Author: defalt
+Author-email: fuckyou@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7.0
