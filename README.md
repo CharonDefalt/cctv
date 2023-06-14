@@ -1,15 +1,14 @@
 # Files are diffrent with each other
 
-# cctv
-cctv shodan 
+Shodan Dork:
 
 Dork for camover:   #search it on shodan
 
 Server: GoAhead-Webs HTTP/1.1 401 Unauthorized
 
+product:"Hikvision IP Camera" country:"IR"
 
-
-# google dork
+Google Dork :
 
 axis camera watching by .cgi
 
